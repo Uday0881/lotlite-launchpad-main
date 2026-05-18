@@ -4,9 +4,9 @@ import { ChevronDown, Menu, X } from "lucide-react";
 import { ThemeToggle } from "@/components/site/ThemeToggle";
 
 const programs = [
-  { to: "/programs/data-science", label: "Data Science", desc: "Predictive land value modeling" },
-  { to: "/programs/information-technology", label: "Information Technology", desc: "PropTech infrastructure" },
-  { to: "/programs/crm", label: "Customer Relationship Management", desc: "High-ticket asset clientele" },
+  { to: "/programs/data-science", label: "DS-Data Science in Real Estate", desc: "Predictive land value modeling" },
+  { to: "/programs/information-technology", label: "IT-Information Technology in Real Estate", desc: "PropTech infrastructure" },
+  { to: "/programs/crm", label: "CRM-Customer Relationship Management in Real Estate", desc: "High-ticket asset clientele" },
 ] as const;
 
 export function Header() {
